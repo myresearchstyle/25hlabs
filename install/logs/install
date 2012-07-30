@@ -1,0 +1,32 @@
+============================================
+Log Created: 2012-07-07T18:44:54+01:00
+============================================
+Symphony Log
+Opened:  2012-07-07T18:44:54+01:00
+Version: 2.3
+Domain:  localhost/25hlabs
+--------------------------------------------
+07/07/2012 6:45 pm > Error: Installer - Wrong configuration.
+07/07/2012 6:45 pm > Error: Configuration - Database ‘’ not found.
+
+============================================
+INSTALLATION PROCESS STARTED (2012-07-07T18:45:36+01:00)
+============================================
+07/07/2012 6:45 pm > Notice: MYSQL: Establishing Connection
+07/07/2012 6:45 pm > Notice: MYSQL: Importing Table Schema
+07/07/2012 6:45 pm > Notice: MYSQL: Creating Default Author
+07/07/2012 6:45 pm > Notice: WRITING: Creating ‘manifest’ folder (/manifest)
+07/07/2012 6:45 pm > Notice: WRITING: Creating ‘logs’ folder (/manifest/logs)
+07/07/2012 6:45 pm > Notice: WRITING: Creating ‘cache’ folder (/manifest/cache)
+07/07/2012 6:45 pm > Notice: WRITING: Creating ‘tmp’ folder (/manifest/tmp)
+07/07/2012 6:45 pm > Notice: WRITING: Configuration File
+07/07/2012 6:45 pm > Notice: CONFIGURING: Frontend
+07/07/2012 6:45 pm > Notice: An existing ‘workspace’ directory was found at this location. Symphony will use this workspace.
+07/07/2012 6:45 pm > Notice: MYSQL: Importing Workspace Data...
+07/07/2012 6:45 pm > Notice: CONFIGURING: Installing existing extensions
+============================================
+INSTALLATION COMPLETED: Execution Time - 6 sec (07.07.12 18:45:42)
+============================================
+
+
+

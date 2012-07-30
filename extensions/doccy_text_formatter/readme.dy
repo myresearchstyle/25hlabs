@@ -1,0 +1,34 @@
+{h1: Doccy text formatter}
+
+A text formatter for {a @href http://doccy.io/: Doccy}, the lightweight markup language for technical writing.
+
+{dl:
+	{dt: Version}
+	{dd: 1.1}
+	{dt: Date}
+	{dd: September 2011}
+	{dt: Requirements}
+	{dd: Symphony 2.2}
+	{dt: Author}
+	{dd: Rowan Lewis <me@rowanlewis.com>}
+	{dt: GitHub Repository}
+	{dd: {a: http://github.com/rowan-lewis/doccy_text_formatter}}
+}
+
+
+{h2: Installation from ZIP}
+
+{ol:
+	{li: Upload the {code: doccy_text_formatter} folder in this archive to your Symphony {code: extensions} folder.}
+	{li: Enable it by selecting the "Text Formatter: Doccy" extension, then choose "Enable" from the with-selected menu, and click apply.}
+	{li: You can now choose "Doccy" as a text formatter in your field configuration.}
+}
+
+
+{h2: Changelog}
+
+{h3: Version 1.0, 14 September 2011}
+
+{ul:
+	{li: Initial release!}
+}

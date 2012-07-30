@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="versioning" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Versioning</name>
+	<description>Entry Versioning and Recycling</description>
+	<repo type="github">https://github.com/iwyg/versioning/</repo>
+	<types>
+		<type>Workflow</type>
+	</types>
+	<authors>
+		<author>
+			<name github="iwyg" symphony="iwyg" twitter="_iwyg_">Thomas Appel</name>
+			<website>http://thomas-appel.com</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1.0" date="2012-06-28" min="2.3" />
+	</releases>
+</extension>

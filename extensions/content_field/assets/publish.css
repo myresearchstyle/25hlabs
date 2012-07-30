@@ -1,0 +1,31 @@
+div.field.field-content > label {
+	margin-bottom: 2px;
+}
+div.field.field-content > div.frame {
+	margin-bottom: 15px;
+}
+div.field.field-content textarea.size-auto {
+	min-height: 1.8em;
+	overflow-y: hidden;
+	resize: none;
+}
+div.field.field-content textarea.size-small {
+	height: 4em;
+	min-height: 4em;
+	resize: vertical;
+}
+div.field.field-content textarea.size-medium {
+	height: 7em;
+	min-height: 4em;
+	resize: vertical;
+}
+div.field.field-content textarea.size-large {
+	height: 13em;
+	min-height: 4em;
+	resize: vertical;
+}
+div.field.field-content textarea.size-huge {
+	height: 19em;
+	min-height: 4em;
+	resize: vertical;
+}

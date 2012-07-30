@@ -1,0 +1,25 @@
+$preview_color: lighten(desaturate(#5C83BA, 4%), 35%);
+
+tr {
+	&.previewed {
+		background-color: $preview_color;	
+		td {
+			background-color: transparent;	
+		}
+	}
+}
+.actions {
+	.button {
+		&.action-back, &.restore {
+			margin-left: 0;
+		}
+	}
+}
+
+#contents button {
+	&.button.delete {
+		&.all {
+			margin-left: 12px;
+		}
+	}
+}

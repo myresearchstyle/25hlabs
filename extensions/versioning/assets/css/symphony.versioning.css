@@ -1,0 +1,10 @@
+tr.previewed {
+  background-color: #dae3ee; }
+  tr.previewed td {
+    background-color: transparent; }
+
+.actions .button.action-back, .actions .button.restore {
+  margin-left: 0; }
+
+#contents button.button.delete.all {
+  margin-left: 12px; }

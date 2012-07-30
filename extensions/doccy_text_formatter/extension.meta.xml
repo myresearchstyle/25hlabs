@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="doccy_text_formatter" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Doccy Text Formatter</name>
+	<description>A text formatter for Doccy, the lightweight markup language for technical writing.</description>
+	<repo type="github">https://github.com/rowan-lewis/doccy_text_formatter</repo>
+	<types>
+		<type>Text Formatter</type>
+	</types>
+	<authors>
+		<author>
+			<name github="rowan-lewis" symphony="buzzomatic">Rowan Lewis</name>
+			<website>http://nbsp.io/</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.0" date="2012-03-25" min="2.3" max="2.3.x" />
+	</releases>
+</extension>

@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h3, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Layout */
+
+*::selection {
+	background-color: #c386a1;
+	color: #ffffff;
+}
+
+*::-moz-selection {
+	background-color: #c386a1;
+	color: #ffffff;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+body {
+	color: #424c4f;
+	font: normal 400 18px/26px "proxima-nova",sans-serif;
+	background-color: #f5f4f0;
+}
+
+a {
+	text-decoration: none;
+	color: #dba5bb;
+}
+
+/*a:hover {
+	color: #dba5bb;
+}*/
+
+h2 {
+	
+}
+
+h2 strong {
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 900;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+#page {
+	min-height: 100%;
+}
+
+#header {
+	width: 1000px;
+	padding: 30px 0 10px 0;
+	margin: 0 auto;
+}
+
+#header h1 {
+	text-transform: uppercase;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+#content {
+	position: relative;
+}
+
+#content p {
+	margin: 40px 0;
+}
+
+#sidebar {
+	width: 240px;
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	width: 25%;
+}
+
+#navigation {
+	text-transform: uppercase;
+	font: normal 600 12px/25px "proxima-nova",sans-serif;
+	margin-bottom: 25px;
+}
+
+#navigation li {
+
+	float: left;
+	margin-right: 25px;
+}
+
+#navigation li a {
+	color: inherit;
+}
+
+#navigation li a:hover {
+	color: #dba5bb;
+}
+
+#navigation li.active a {
+	text-decoration: underline;
+}
+
+#content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#main-content {
+	float: left;
+}
+
+#main-content-inner {
+	padding: 30px 70px;
+}
+
+article {
+	min-height: 400px;
+	margin-bottom: 80px;
+	margin-right: 30px;
+	width: 250px;
+	float: left;
+}
+
+article img {
+	display: block;
+	margin-bottom: 14px;
+}
+
+article .date {
+	font-size: 12px;
+	line-height: 25px;
+	color: #889598;
+	text-transform: uppercase;
+}
+
+article .keywords {
+	line-height: 14px;
+	font-size: 12px;
+}
+
+article .keywords li {
+	display: inline;
+	margin-right: 10px;
+	
+}
+
+#single-article {
+	
+}
+
+article .keywords li a {
+	font-size: 12px;
+}
+
+#content section > p:first-child {
+	margin-top: 0px;
+}
+
+#footer {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#keywords {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+#keywords li {
+	float: left;
+}
+
+#keywords li a {
+	font-size: 11px;
+	display: block;
+	color: #fff;
+	background-color: #b6d7d5;
+	text-transform: uppercase;
+	padding: 0 7px;
+	margin: 0 5px 5px 0;
+}
+
+#keywords li a:hover, #keywords li.active a {
+	background-color: #dba5bb;
+}
+
+#leading-article-content, #single-article-content {
+	width: 1000px;
+	margin: 0 auto 40px;
+	border-bottom: 2px solid #596566;
+}
+
+#leading-article-content h2, #single-article-content h2  {
+	font-size: 47px;
+	line-height: 64px;
+	text-align: left;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+#leading-article-content h2 a {
+	color: inherit;
+}
+
+#single-article-body h4 {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+#single-article-body h5 {
+ 	font-weight: 600;
+	 text-transform: uppercase;
+ }
+ 
+ #single-article-body h5 + p {
+ 	margin-top: 10px;
+ }
+
+#leading-article-summary, #single-article-summary {
+	width: 800px;
+	margin: 0 auto 40px;
+	font-size: 29px;
+	line-height: 40px;
+}
+
+#single-article-body {
+	
+}
+
+#leading-article-poster, #single-article-poster {
+	width: 100%;
+	height: 260px;
+	display: block;
+	/*-moz-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+#categories {
+	width: 160px;
+}

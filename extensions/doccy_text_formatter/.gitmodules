@@ -1,0 +1,6 @@
+[submodule "doccy"]
+	path = doccy
+	url = git://github.com/rowan-lewis/doccy.git
+[submodule "snicked"]
+	path = snicked
+	url = git://github.com/rowan-lewis/snicked.git
